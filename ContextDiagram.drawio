@@ -1,17 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-04-15T00:21:18.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36 Edg/81.0.416.53" etag="F-xzSKsoTOatXCr6fxiJ" version="12.9.12" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-15T00:38:04.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36 Edg/81.0.416.53" etag="MBjlOSNR-JwPtoWjMenu" version="12.9.12" type="github">
   <diagram id="05J3QiOPkPLagkaqRgKB" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zNGWt20oC-faalKSxXV1-1" value="Sistem Pembayaran" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="zNGWt20oC-faalKSxXV1-1" value="Sistem Pendataan Transaksi Tagihan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="370" y="245" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zNGWt20oC-faalKSxXV1-3" value="Pelanggan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zNGWt20oC-faalKSxXV1-4" value="Kasir" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zNGWt20oC-faalKSxXV1-4" value="Pemilik" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-2" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNGWt20oC-faalKSxXV1-1" target="zNGWt20oC-faalKSxXV1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="260" as="sourcePoint" />
+            <mxPoint x="560" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-7" value="Laporan &lt;br&gt;transaksi tagihan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Z8D06Dz2ogXI7LRP5uT-2">
+          <mxGeometry x="-0.1692" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-3" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNGWt20oC-faalKSxXV1-3" target="zNGWt20oC-faalKSxXV1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="245" as="sourcePoint" />
+            <mxPoint x="290" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-6" value="Menanyakan tagihan&lt;br&gt;Membayar tagihan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Z8D06Dz2ogXI7LRP5uT-3">
+          <mxGeometry x="0.0411" y="-18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-8" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zNGWt20oC-faalKSxXV1-1" target="zNGWt20oC-faalKSxXV1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="410" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="390" />
+              <mxPoint x="250" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Z8D06Dz2ogXI7LRP5uT-10" value="Informasi tagihan&lt;br&gt;Jumlah uang harus dibayar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Z8D06Dz2ogXI7LRP5uT-8">
+          <mxGeometry x="0.0579" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
