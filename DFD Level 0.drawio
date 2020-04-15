@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2020-04-15T03:18:27.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36 Edg/81.0.416.53" version="12.9.12" etag="SykeUPE7-olOVts2vPA7" type="github"><diagram id="x2uyPV3DHObJosfZB0lo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-15T05:03:49.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36 Edg/81.0.416.53" etag="qsml6YaCneVfvt9w77ei" version="12.9.12" type="github">
+  <diagram id="x2uyPV3DHObJosfZB0lo" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YeDz2mBLeD67s4_r0smp-1" value="Tagihan" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-2" value="1.1&lt;br&gt;Membuka jenis tagihan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-3" value="Pelanggan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-4" value="1.2&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Menampilkan jumlah tagihan&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;jenis tsb.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YeDz2mBLeD67s4_r0smp-3" target="YeDz2mBLeD67s4_r0smp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-6" value="Menanya tagihan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YeDz2mBLeD67s4_r0smp-5">
+          <mxGeometry x="0.2462" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YeDz2mBLeD67s4_r0smp-2" target="YeDz2mBLeD67s4_r0smp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-10" value="" style="curved=1;endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YeDz2mBLeD67s4_r0smp-1" target="YeDz2mBLeD67s4_r0smp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-11" value="Jenis tagihan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YeDz2mBLeD67s4_r0smp-10">
+          <mxGeometry x="-0.1094" y="-27" relative="1" as="geometry">
+            <mxPoint x="-18" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-12" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YeDz2mBLeD67s4_r0smp-4" target="YeDz2mBLeD67s4_r0smp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="280" as="sourcePoint" />
+            <mxPoint x="165" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeDz2mBLeD67s4_r0smp-13" value="Informasi tagihan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YeDz2mBLeD67s4_r0smp-12">
+          <mxGeometry x="0.0231" y="-30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
